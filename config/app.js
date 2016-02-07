@@ -25,7 +25,7 @@ module.exports =function(){
      */
 
 // all environments
-    app.set('port', process.env.PORT || 5000);
+    app.set('port', process.env.PORT || 8079);
     /*app.set('views', __dirname + '/views');
      app.set('view engine', 'jade');*/
     app.set('showStackError', true);

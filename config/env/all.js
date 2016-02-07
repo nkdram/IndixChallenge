@@ -6,7 +6,7 @@ module.exports = {
         description: 'Product Ingestion and Reporting',
         keywords: 'Challenge, Product Ingestion'
     },
-    port: process.env.PORT || 5000,
+    port: process.env.PORT || 8079,
     secure: process.env.SECURE || false,
     templateEngine: 'swig',
     sessionSecret: 'Indix Challenge - Session Secret',

@@ -8,10 +8,10 @@ var app = require('./config/app')();
 require('./config/passport')();
 
 // Start the app by listening on <port>
-app.listen(5000);
+app.listen(app.get('port'));
 
 // Expose app
 exports = module.exports = app;
 
 // Logging initialization
-console.log('Indix APP started on port 5000');
+console.log('Indix APP started on port 8079');
