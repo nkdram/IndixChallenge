@@ -12,7 +12,6 @@ var favicon = require('serve-favicon'),
      errorHandler = require('errorhandler'),
 	 path = require('path'),
      config = require('./config/config');
-     routes = require('./routes/products');
 
 var app = module.exports = express();
 
@@ -22,7 +21,7 @@ var app = module.exports = express();
  */
 
 // all environments
- app.set('port', process.env.PORT || 3000);
+ app.set('port', process.env.PORT || 5000);
     app.set('views', __dirname + '/views');
     app.set('view engine', 'jade');
     app.use(logger('dev'));
@@ -38,7 +37,6 @@ var app = module.exports = express();
 
     // parse multipart/form-data
     app.use(multer());
-    app.use(routes);
 
     app.use(express.static(path.join(__dirname, 'public')));
 	
@@ -65,8 +63,7 @@ config.getGlobbedFiles('../policies/**/*.js').forEach(function(policyPath) {
 });
 
 // Globbing routing files
-config.getGlobbedFiles('../../routes/*.js').forEach(function(routePath) {
-    console.log("route paths", routePath);
+config.getGlobbedFiles(['./routes/products']).forEach(function(routePath) {
     require(path.resolve(routePath))(app);
 });
 // serve index and view partials
