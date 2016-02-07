@@ -6,51 +6,42 @@ module.exports = {
         description: 'Product Ingestion and Reporting',
         keywords: 'Challenge, Product Ingestion'
     },
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 5000,
     secure: process.env.SECURE || false,
     templateEngine: 'swig',
     sessionSecret: 'WS3BP',
     assets: {
         lib: {
             css: [
-                'public/lib/bootstrap/dist/css/bootstrap.css',
-                'public/lib/bootstrap/dist/css/bootstrap-theme.css',
-                'public/lib/fontawesome/css/font-awesome.css',
-                'public/lib/dialogs/dist/dialogs.min.css',
-                'public/lib/angular-busy/dist/angular-busy.min.css',
-                'public/lib/ng-table/dist/ng-table.css',
-                'public/lib/angular-ui-select/dist/select.min.css'
+                'bower_components/bootstrap/dist/css/bootstrap.css',
+                'bower_components/bootstrap/dist/css/bootstrap-theme.css',
+                'bower_components/fontawesome/css/font-awesome.css',
+                'bower_components/dialogs/dist/dialogs.min.css',
+                'bower_components/angular-busy/dist/angular-busy.min.css',
+                'bower_components/ng-table/dist/ng-table.css',
+                'bower_components/angular-ui-select/dist/select.min.css'
             ],
             js: [
-                'public/lib/angular/angular.js',
-                'public/lib/angular-resource/angular-resource.js',
-                'public/lib/angular-cookies/angular-cookies.js',
-                'public/lib/angular-animate/angular-animate.js',
-                'public/lib/angular-touch/angular-touch.js',
-                'public/lib/angular-sanitize/angular-sanitize.js',
-                'public/lib/angular-ui-router/release/angular-ui-router.js',
-                'public/lib/angular-ui-utils/ui-utils.js',
-                'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
-                'public/lib/dialogs/dist/dialogs.min.js',
-                'public/lib/angular-busy/dist/angular-busy.min.js',
-
-                'public/lib/jquery/dist/jquery.js',
-                'public/lib/ng-table/dist/ng-table.js',
-
-                'public/lib/js-xlsx/dist/xlsx.core.min.js',
-                'public/dist/Blob.js',
-                'public/dist/FileSaver.min.js',
-
-                'public/lib/lodash/dist/lodash.min.js',
-                'public/lib/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js',
-                'public/lib/angular-ui-select/dist/select.min.js'
+                'bower_components/angular/angular.js',
+                'bower_components/angular-resource/angular-resource.js',
+                'bower_components/angular-cookies/angular-cookies.js',
+                'bower_componentsangular-animate/angular-animate.js',
+                'bower_components/angular-touch/angular-touch.js',
+                'bower_components/angular-sanitize/angular-sanitize.js',
+                'bower_components/angular-ui-router/release/angular-ui-router.js',
+                'bower_components/angular-ui-utils/ui-utils.js',
+                'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+                'bower_components/dialogs/dist/dialogs.min.js',
+                'bower_components/angular-busy/dist/angular-busy.min.js',
+                'bower_components/jquery/dist/jquery.js',
+                'bower_components/ng-table/dist/ng-table.js'
             ]
         },
         css: [
             'public/modules/**/css/*.css'
         ],
         js: [
-            'public/config.js',
+            'public/app.js',
             'public/application.js',
             'public/modules/*/*.js',
             'public/modules/*/*[!tests]*/*.js'

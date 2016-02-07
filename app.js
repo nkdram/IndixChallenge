@@ -29,6 +29,12 @@ var app = module.exports = express();
     app.use(session({ resave: true, saveUninitialized: true, 
                       secret: 'uwotm8' }));
 
+    app.locals.title = 'Indix Challenge';
+
+    app.locals.jsFiles = config.getJavaScriptAssets();
+    app.locals.cssFiles = config.getCSSAssets();
+    //app.locals.secure = config.secure;
+
     // parse application/json
     app.use(bodyParser.json());                        
 
@@ -68,6 +74,28 @@ config.getGlobbedFiles(['./routes/products.js']).forEach(function(routePath) {
 });
 // serve index and view partials
 
+
+// Assume 'not found' in the error msgs is a 404. this is somewhat silly, but valid, you can do whatever you like, set properties, use instanceof etc.
+app.use(function(err, req, res, next) {
+    // If the error object doesn't exists
+    if (!err) return next();
+
+    // Log it
+    console.error(err.stack);
+
+    // Error page
+    res.status(500).render('500', {
+        error: err.stack
+    });
+});
+
+// Assume 404 since no middleware responded
+app.use(function(req, res) {
+    res.status(404).render('404', {
+        url: req.originalUrl,
+        error: 'Not Found'
+    });
+});
 
 /**
  * Start Server
