@@ -6,6 +6,7 @@ var express = require('express');
 var favicon = require('serve-favicon'),
      logger = require('morgan'),
      methodOverride = require('method-override'),
+     consolidate = require('consolidate'),
      session = require('express-session'),
      bodyParser = require('body-parser'),
      multer = require('multer'),
@@ -22,8 +23,12 @@ var app = module.exports = express();
 
 // all environments
  app.set('port', process.env.PORT || 5000);
-    app.set('views', __dirname + '/views');
-    app.set('view engine', 'jade');
+    /*app.set('views', __dirname + '/views');
+    app.set('view engine', 'jade');*/
+    app.set('showStackError', true);
+
+    // Set swig as the template engine
+    app.engine('server.view.html', consolidate[config.templateEngine]);
     app.use(logger('dev'));
     app.use(methodOverride());
     app.use(session({ resave: true, saveUninitialized: true, 
