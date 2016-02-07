@@ -9,7 +9,7 @@ module.exports = {
     port: process.env.PORT || 5000,
     secure: process.env.SECURE || false,
     templateEngine: 'swig',
-    sessionSecret: 'WS3BP',
+    sessionSecret: 'Indix Challenge - Session Secret',
     assets: {
         lib: {
             css: [
