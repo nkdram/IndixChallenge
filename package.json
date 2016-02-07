@@ -6,6 +6,7 @@
     "async":"*",
     "sequelize":"*",
     "pg":"*",
+    "crypto": "0.0.3",
     "pg-hstore":"*",
     "passport":"*",
     "passport":"*",
