@@ -63,7 +63,7 @@ config.getGlobbedFiles('../policies/**/*.js').forEach(function(policyPath) {
 });
 
 // Globbing routing files
-config.getGlobbedFiles(['./routes/products']).forEach(function(routePath) {
+config.getGlobbedFiles(['./routes/products.js']).forEach(function(routePath) {
     require(path.resolve(routePath))(app);
 });
 // serve index and view partials
