@@ -1,8 +1,8 @@
 module.exports = {
     database: 'Challenge',
-    username: 'admin',
+    username: 'postgres',
     password: 'admin',
-    host: 'localhost',
+    host: '127.0.0.1',
     port: 5432,
     dialect: 'postgres',
     dialectModulePath: 'pg.js',

@@ -40,7 +40,7 @@ module.exports.getGlobbedFiles = function(globPatterns, removeRoot) {
             var files = glob(globPatterns, { sync: true });
             if (removeRoot) {
                 files = files.map(function(file) {
-                    return file.replace(removeRoot, '');
+                    return file.replace(removeRoot, 'assets/');
                 });
             }
             output = _.union(output, files);
@@ -55,7 +55,7 @@ module.exports.getGlobbedFiles = function(globPatterns, removeRoot) {
  */
 module.exports.getJavaScriptAssets = function(includeTests) {
     var output = this.getGlobbedFiles(this.assets.lib.js.concat(this.assets.js), 'public/');
-
+    console.log(output);
     // To include tests
     if (includeTests) {
         output = _.union(output, this.getGlobbedFiles(this.assets.tests));
@@ -69,5 +69,6 @@ module.exports.getJavaScriptAssets = function(includeTests) {
  */
 module.exports.getCSSAssets = function() {
     var output = this.getGlobbedFiles(this.assets.lib.css.concat(this.assets.css), 'public/');
+    console.log(output);
     return output;
 };

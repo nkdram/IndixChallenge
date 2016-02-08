@@ -6,10 +6,10 @@ module.exports = {
         description: 'Product Ingestion and Reporting',
         keywords: 'Challenge, Product Ingestion'
     },
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 8079,
     secure: process.env.SECURE || false,
     templateEngine: 'swig',
-    sessionSecret: 'WS3BP',
+    sessionSecret: 'Indix Challenge - Session Secret',
     assets: {
         lib: {
             css: [
@@ -33,24 +33,15 @@ module.exports = {
                 'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
                 'public/lib/dialogs/dist/dialogs.min.js',
                 'public/lib/angular-busy/dist/angular-busy.min.js',
-
                 'public/lib/jquery/dist/jquery.js',
-                'public/lib/ng-table/dist/ng-table.js',
-
-                'public/lib/js-xlsx/dist/xlsx.core.min.js',
-                'public/dist/Blob.js',
-                'public/dist/FileSaver.min.js',
-
-                'public/lib/lodash/dist/lodash.min.js',
-                'public/lib/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js',
-                'public/lib/angular-ui-select/dist/select.min.js'
+                'public/lib/ng-table/dist/ng-table.js'
             ]
         },
         css: [
             'public/modules/**/css/*.css'
         ],
         js: [
-            'public/config.js',
+            'public/app.js',
             'public/application.js',
             'public/modules/*/*.js',
             'public/modules/*/*[!tests]*/*.js'
@@ -58,6 +49,48 @@ module.exports = {
         tests: [
             'public/lib/angular-mocks/angular-mocks.js',
             'public/modules/*/tests/*.js'
+        ]
+    },
+    build: {
+        lib: {
+            css: [
+                'public/lib/bootstrap/dist/css/bootstrap.min.css',
+                'public/lib/bootstrap/dist/css/bootstrap-theme.min.css',
+                'public/lib/dialogs/dist/dialogs.min.css',
+                'public/lib/ng-table/dist/ng-table.css',
+                'public/lib/angular-ui-select/dist/select.min.css',
+                'public/lib/angular-loading-bar/build/loading-bar.min.css',
+                'public/lib/bootstrap-daterangepicker/daterangepicker.css'
+            ],
+            js: [
+                'public/lib/blob-polyfill/blob.min.js',
+                'public/lib/file-saver.js/filesaver.min.js',
+                'public/lib/angular/angular.min.js',
+                'public/lib/angular-resource/angular-resource.min.js',
+                'public/lib/angular-cookies/angular-cookies.min.js',
+                'public/lib/angular-animate/angular-animate.min.js',
+                'public/lib/angular-touch/angular-touch.min.js',
+                'public/lib/angular-sanitize/angular-sanitize.min.js',
+                'public/lib/angular-ui-router/release/angular-ui-router.min.js',
+                'public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js',
+                'public/lib/dialogs/dist/dialogs.min.js',
+                'public/lib/jquery/dist/jquery.min.js',
+                'public/lib/ng-table/dist/ng-table.min.js',
+                'public/lib/lodash/dist/lodash.min.js',
+                'public/lib/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js',
+                'public/lib/angular-ui-select/dist/select.min.js',
+                'public/lib/angular-loading-bar/build/loading-bar.min.js',
+                'public/lib/angular-file-saver/dist/angular-file-saver.min.js'
+            ]
+        },
+        css: [
+            'public/dist/modules/**/*.css'
+        ],
+        js: [
+            'public/config.js',
+            'public/application.js',
+            'public/modules/*/*.js',
+            'public/modules/**/*.js'
         ]
     }
 };

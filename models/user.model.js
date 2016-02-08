@@ -7,19 +7,19 @@ var crypto = require('crypto');
 
 module.exports = function (sequelize, DataTypes) {
     var User = sequelize.define('User', {
-            firstName: {
+            firstname: {
                 type: DataTypes.STRING,
                 validate: {
                     notEmpty: true
                 }
             },
-            lastName: {
+            lastname: {
                 type: DataTypes.STRING,
                 validate: {
                     notEmpty: true
                 }
             },
-            displayName: DataTypes.STRING,
+            displayname: DataTypes.STRING,
             email: {
                 type: DataTypes.STRING,
                 validate: {
