@@ -16,7 +16,7 @@ id bigint NOT NULL primary key,
   resetPasswordToken varchar(255) DEFAULT NULL,
   resetPasswordExpires timestamp DEFAULT NULL,
   token char(36) DEFAULT NULL
-)  
+)
 
 
 CREATE TABLE IF NOT EXISTS tbl_user_activity (
