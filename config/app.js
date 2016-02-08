@@ -74,10 +74,6 @@ module.exports =function(){
     app.use(multer());
 
     app.use('/assets', express.static(path.resolve('./public')));
-    /*app.use('/static', express.static(__dirname + '/public'));
-    app.use('/static', express.static(__dirname + '/public'));*/
-     /*app.use('/assets', express.static(path.resolve('./public')));
-     app.use('/assets', express.static(path.resolve('./bower_components')));*/
 
     // Enable jsonp
     app.enable('jsonp callback');

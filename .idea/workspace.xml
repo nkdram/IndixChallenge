@@ -2,614 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8957e128-3832-4d4e-8180-d2ffd48d5e2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/404.server.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/500.server.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.server.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout.server.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/templates/reset-password-confirm-email.server.view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/templates/reset-password-email.server.view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/env/all.js" afterPath="$PROJECT_DIR$/config/env/all.js" />
+      <change type="DELETED" beforePath="D:\Challenge\IndixChallenge\public\modules\core\views\mainnav.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.js" afterPath="$PROJECT_DIR$/config/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/application.js" afterPath="$PROJECT_DIR$/public/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.js" afterPath="$PROJECT_DIR$/config/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-animate/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\README.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\angular-animate.js" afterPath="$PROJECT_DIR$/public/lib/angular-animate/angular-animate.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\angular-animate.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-animate/angular-animate.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\angular-animate.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-animate/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\index.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-animate\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-animate/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\.gitignore" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/.gitignore" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\.npmignore" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/.npmignore" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\index.js" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\ui-bootstrap-csp.css" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/ui-bootstrap-csp.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\ui-bootstrap-tpls.js" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/ui-bootstrap-tpls.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\ui-bootstrap-tpls.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\ui-bootstrap.js" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/ui-bootstrap.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-bootstrap\ui-bootstrap.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-bootstrap/ui-bootstrap.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\angular-cookies.js" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/angular-cookies.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\angular-cookies.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/angular-cookies.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\angular-cookies.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/angular-cookies.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\index.js" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-cookies\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-cookies/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\dist\angular-file-saver.bundle.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/dist/angular-file-saver.bundle.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\dist\angular-file-saver.bundle.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/dist/angular-file-saver.bundle.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\dist\angular-file-saver.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/dist/angular-file-saver.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\dist\angular-file-saver.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/dist/angular-file-saver.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\assets\js\custom.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/assets/js/custom.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\assets\stylesheets\github-light.css" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/assets/stylesheets/github-light.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\assets\stylesheets\normalize.css" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/assets/stylesheets/normalize.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\assets\stylesheets\stylesheet.css" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/assets/stylesheets/stylesheet.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\dist\examples.css" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/dist/examples.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\dist\examples.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/dist/examples.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\dist\examples.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/dist/examples.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\index.html" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/index.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\docs\params.json" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/docs/params.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\gulpfile.babel.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/gulpfile.babel.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\karma.conf.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/karma.conf.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\license.md" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/license.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\readme.md" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/readme.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\angular-file-saver-bundle.module.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/angular-file-saver-bundle.module.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\angular-file-saver.module.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/angular-file-saver.module.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\angular-file-saver.service.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/angular-file-saver.service.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\dependencies\blob-bundle.service.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/dependencies/blob-bundle.service.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\dependencies\blob.service.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/dependencies/blob.service.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\dependencies\file-saver-bundle.service.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/dependencies/file-saver-bundle.service.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\dependencies\file-saver.service.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/dependencies/file-saver.service.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-file-saver\src\utils\utils.service.js" afterPath="$PROJECT_DIR$/public/lib/angular-file-saver/src/utils/utils.service.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\angular-mocks.js" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/angular-mocks.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\ngAnimateMock.js" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/ngAnimateMock.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\ngMock.js" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/ngMock.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\ngMockE2E.js" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/ngMockE2E.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-mocks\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-mocks/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-resource/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-resource/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\angular-resource.js" afterPath="$PROJECT_DIR$/public/lib/angular-resource/angular-resource.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\angular-resource.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-resource/angular-resource.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\angular-resource.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular-resource/angular-resource.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-resource/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\index.js" afterPath="$PROJECT_DIR$/public/lib/angular-resource/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-resource\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-resource/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\angular-sanitize.js" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/angular-sanitize.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\angular-sanitize.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/angular-sanitize.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\index.js" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-sanitize\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-scenario\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-scenario/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-scenario\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-scenario/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-scenario\angular-scenario.js" afterPath="$PROJECT_DIR$/public/lib/angular-scenario/angular-scenario.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-scenario\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-scenario/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-scenario\jstd-scenario-adapter-config.js" afterPath="$PROJECT_DIR$/public/lib/angular-scenario/jstd-scenario-adapter-config.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-scenario\jstd-scenario-adapter.js" afterPath="$PROJECT_DIR$/public/lib/angular-scenario/jstd-scenario-adapter.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-scenario\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-scenario/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-touch/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-touch/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\angular-touch.js" afterPath="$PROJECT_DIR$/public/lib/angular-touch/angular-touch.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\angular-touch.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-touch/angular-touch.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\angular-touch.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular-touch/angular-touch.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-touch/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\index.js" afterPath="$PROJECT_DIR$/public/lib/angular-touch/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-touch\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-touch/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-translate\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-translate/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-translate\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-translate/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-translate\angular-translate.js" afterPath="$PROJECT_DIR$/public/lib/angular-translate/angular-translate.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-translate\angular-translate.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-translate/angular-translate.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-translate\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-translate/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\CHANGELOG.md" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/CHANGELOG.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\CONTRIBUTING.md" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\LICENSE" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/LICENSE" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\release\angular-ui-router.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/release/angular-ui-router.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\release\angular-ui-router.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\common.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/common.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\resolve.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/resolve.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\state.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/state.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\stateDirectives.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/stateDirectives.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\stateFilters.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/stateFilters.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\templateFactory.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/templateFactory.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\urlMatcherFactory.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\urlRouter.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/urlRouter.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\view.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/view.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\viewDirective.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/viewDirective.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-router\src\viewScroll.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-router/src/viewScroll.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\CHANGELOG.md" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/CHANGELOG.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\CONTRIBUTING.md" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\LICENSE" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/LICENSE" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\composer.json" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/composer.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\dist\select.css" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/dist/select.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\dist\select.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/dist/select.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\dist\select.min.css" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/dist/select.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\dist\select.min.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/dist/select.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\index.js" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular-ui-select\package.json" afterPath="$PROJECT_DIR$/public/lib/angular-ui-select/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\.bower.json" afterPath="$PROJECT_DIR$/public/lib/angular/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\README.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\angular-csp.css" afterPath="$PROJECT_DIR$/public/lib/angular/angular-csp.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\angular.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\angular.min.js" afterPath="$PROJECT_DIR$/public/lib/angular/angular.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\angular.min.js.gzip" afterPath="$PROJECT_DIR$/public/lib/angular/angular.min.js.gzip" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\angular.min.js.map" afterPath="$PROJECT_DIR$/public/lib/angular/angular.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\bower.json" afterPath="$PROJECT_DIR$/public/lib/angular/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\index.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\angular\package.json" afterPath="$PROJECT_DIR$/public/lib/angular/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\blob-polyfill\.bower.json" afterPath="$PROJECT_DIR$/public/lib/blob-polyfill/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\blob-polyfill\Blob.js" afterPath="$PROJECT_DIR$/public/lib/blob-polyfill/Blob.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\blob-polyfill\LICENSE.md" afterPath="$PROJECT_DIR$/public/lib/blob-polyfill/LICENSE.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\blob-polyfill\README.md" afterPath="$PROJECT_DIR$/public/lib/blob-polyfill/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\blob-polyfill\bower.json" afterPath="$PROJECT_DIR$/public/lib/blob-polyfill/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\blob-polyfill\package.json" afterPath="$PROJECT_DIR$/public/lib/blob-polyfill/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\.bower.json" afterPath="$PROJECT_DIR$/public/lib/bootstrap/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\CHANGELOG.md" afterPath="$PROJECT_DIR$/public/lib/bootstrap/CHANGELOG.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\Gruntfile.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/Gruntfile.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\LICENSE" afterPath="$PROJECT_DIR$/public/lib/bootstrap/LICENSE" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\README.md" afterPath="$PROJECT_DIR$/public/lib/bootstrap/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\bower.json" afterPath="$PROJECT_DIR$/public/lib/bootstrap/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\css\bootstrap.min.css.map" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/js/bootstrap.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\dist\js\npm.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/js/npm.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\grunt\.jshintrc" afterPath="$PROJECT_DIR$/public/lib/bootstrap/grunt/.jshintrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\grunt\bs-commonjs-generator.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\grunt\configBridge.json" afterPath="$PROJECT_DIR$/public/lib/bootstrap/grunt/configBridge.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\grunt\sauce_browsers.yml" afterPath="$PROJECT_DIR$/public/lib/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\.jscsrc" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/.jscsrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\.jshintrc" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/.jshintrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\affix.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/affix.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\alert.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/alert.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\button.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/button.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\carousel.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/carousel.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\collapse.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/collapse.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\dropdown.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/dropdown.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\modal.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/modal.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\popover.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/popover.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\scrollspy.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/scrollspy.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\tab.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/tab.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\tooltip.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/tooltip.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\js\transition.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/transition.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\.csscomb.json" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/.csscomb.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\.csslintrc" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/.csslintrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\alerts.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/alerts.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\badges.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/badges.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\bootstrap.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/bootstrap.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\breadcrumbs.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/breadcrumbs.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\button-groups.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/button-groups.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\buttons.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/buttons.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\carousel.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/carousel.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\close.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/close.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\code.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/code.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\component-animations.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/component-animations.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\dropdowns.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/dropdowns.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\forms.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/forms.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\glyphicons.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/glyphicons.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\grid.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/grid.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\input-groups.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/input-groups.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\jumbotron.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/jumbotron.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\labels.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/labels.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\list-group.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/list-group.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\media.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/media.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\alerts.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/alerts.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\background-variant.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/background-variant.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\border-radius.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/border-radius.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\buttons.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/buttons.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\center-block.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/center-block.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\clearfix.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/clearfix.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\forms.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/forms.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\gradients.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/gradients.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\grid-framework.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\grid.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/grid.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\hide-text.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/hide-text.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\image.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/image.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\labels.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/labels.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\list-group.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/list-group.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\nav-divider.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\nav-vertical-align.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\opacity.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/opacity.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\pagination.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/pagination.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\panels.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/panels.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\progress-bar.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\reset-filter.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\reset-text.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/reset-text.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\resize.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/resize.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\responsive-visibility.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\size.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/size.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\tab-focus.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\table-row.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/table-row.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\text-emphasis.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\text-overflow.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\mixins\vendor-prefixes.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\modals.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/modals.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\navbar.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/navbar.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\navs.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/navs.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\normalize.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/normalize.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\pager.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/pager.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\pagination.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/pagination.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\panels.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/panels.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\popovers.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/popovers.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\print.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/print.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\progress-bars.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/progress-bars.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\responsive-embed.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/responsive-embed.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\responsive-utilities.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/responsive-utilities.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\scaffolding.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/scaffolding.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\tables.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/tables.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\theme.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/theme.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\thumbnails.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/thumbnails.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\tooltip.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/tooltip.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\type.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/type.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\utilities.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/utilities.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\variables.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/variables.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\less\wells.less" afterPath="$PROJECT_DIR$/public/lib/bootstrap/less/wells.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\nuget\MyGet.ps1" afterPath="$PROJECT_DIR$/public/lib/bootstrap/nuget/MyGet.ps1" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\nuget\bootstrap.less.nuspec" afterPath="$PROJECT_DIR$/public/lib/bootstrap/nuget/bootstrap.less.nuspec" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\nuget\bootstrap.nuspec" afterPath="$PROJECT_DIR$/public/lib/bootstrap/nuget/bootstrap.nuspec" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\package.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/package.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\bootstrap\package.json" afterPath="$PROJECT_DIR$/public/lib/bootstrap/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\.bower.json" afterPath="$PROJECT_DIR$/public/lib/dialogs/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\LICENSE" afterPath="$PROJECT_DIR$/public/lib/dialogs/LICENSE" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\bower.json" afterPath="$PROJECT_DIR$/public/lib/dialogs/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\dist\dialogs-default-translations.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/js/dialogs-default-translations.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\dist\dialogs-default-translations.min.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/js/dialogs-default-translations.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\dist\dialogs.css" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/css/dialogs.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\dist\dialogs.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/js/dialogs.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\dist\dialogs.min.css" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/css/dialogs.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\dist\dialogs.min.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/js/dialogs.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\css\dialogs.css" afterPath="$PROJECT_DIR$/public/lib/dialogs/dist/dialogs.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\css\dialogs.min.css" afterPath="$PROJECT_DIR$/public/lib/dialogs/dist/dialogs.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\faChk.html" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/faChk.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\index.html" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/index.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\index2.html" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/index2.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\js\dialogTest.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/js/dialogTest.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\js\dialogTest2.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/js/dialogTest2.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\js\dialogs-default-translations.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/dist/dialogs-default-translations.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\js\dialogs-default-translations.min.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/dist/dialogs-default-translations.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\js\dialogs-min.min.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/example/js/dialogs-min.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\js\dialogs.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/dist/dialogs.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\example\js\dialogs.min.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/dist/dialogs.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\index.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\karma.conf.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/karma.conf.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\tests\dialogs-controllers.tests.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/tests/dialogs-controllers.tests.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\tests\dialogs-main.tests.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/tests/dialogs-main.tests.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\dialogs\tests\dialogs-services.tests.js" afterPath="$PROJECT_DIR$/public/lib/dialogs/tests/dialogs-services.tests.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\file-saver.js\.bower.json" afterPath="$PROJECT_DIR$/public/lib/file-saver.js/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\file-saver.js\FileSaver.js" afterPath="$PROJECT_DIR$/public/lib/file-saver.js/FileSaver.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\file-saver.js\LICENSE.md" afterPath="$PROJECT_DIR$/public/lib/file-saver.js/LICENSE.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\file-saver.js\README.md" afterPath="$PROJECT_DIR$/public/lib/file-saver.js/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\file-saver.js\bower.json" afterPath="$PROJECT_DIR$/public/lib/file-saver.js/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\.bower.json" afterPath="$PROJECT_DIR$/public/lib/jquery/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\AUTHORS.txt" afterPath="$PROJECT_DIR$/public/lib/jquery/AUTHORS.txt" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\LICENSE.txt" afterPath="$PROJECT_DIR$/public/lib/jquery/LICENSE.txt" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\README.md" afterPath="$PROJECT_DIR$/public/lib/jquery/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\bower.json" afterPath="$PROJECT_DIR$/public/lib/jquery/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\dist\jquery.js" afterPath="$PROJECT_DIR$/public/lib/jquery/dist/jquery.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\dist\jquery.min.js" afterPath="$PROJECT_DIR$/public/lib/jquery/dist/jquery.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\dist\jquery.min.map" afterPath="$PROJECT_DIR$/public/lib/jquery/dist/jquery.min.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\.jshintrc" afterPath="$PROJECT_DIR$/public/lib/jquery/src/.jshintrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\jsonp.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/jsonp.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\load.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/load.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\parseJSON.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/parseJSON.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\parseXML.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/parseXML.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\script.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/script.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\var\location.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/var/location.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\var\nonce.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/var/nonce.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\var\rquery.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/var/rquery.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\ajax\xhr.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/ajax/xhr.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\attributes.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/attributes.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\attributes\attr.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/attributes/attr.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\attributes\classes.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/attributes/classes.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\attributes\prop.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/attributes/prop.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\attributes\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/attributes/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\attributes\val.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/attributes/val.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\callbacks.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/callbacks.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\core.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/core.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\core\access.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/core/access.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\core\init.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/core/init.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\core\parseHTML.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/core/parseHTML.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\core\ready.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/core/ready.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\core\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/core/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/core/var/rsingleTag.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\addGetHookIf.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/addGetHookIf.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\adjustCSS.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/adjustCSS.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\curCSS.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/curCSS.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\defaultDisplay.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/defaultDisplay.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\showHide.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/showHide.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\var\cssExpand.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/var/cssExpand.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\var\getStyles.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/var/getStyles.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\var\isHidden.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/var/isHidden.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\var\rmargin.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/var/rmargin.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\css\var\swap.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/css/var/swap.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\data.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/data.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\data\Data.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/data/Data.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\data\accepts.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/data/accepts.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\data\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/data/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\data\var\acceptData.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/data/var/acceptData.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\data\var\dataPriv.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/data/var/dataPriv.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\data\var\dataUser.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/data/var/dataUser.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\deferred.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/deferred.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\deprecated.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/deprecated.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\dimensions.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/dimensions.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\effects.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/effects.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\effects\Tween.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/effects/Tween.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\effects\animatedSelector.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/effects/animatedSelector.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\effects\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/effects/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\event.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/event.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\event\ajax.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/event/ajax.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\event\alias.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/event/alias.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\event\focusin.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/event/focusin.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\event\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/event/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\event\trigger.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/event/trigger.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\exports\amd.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/exports/amd.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\exports\global.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/exports/global.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\intro.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/intro.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\jquery.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/jquery.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\buildFragment.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/buildFragment.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\createSafeFragment.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/createSafeFragment.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\getAll.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/getAll.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\setGlobalEval.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\var\nodeNames.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/var/nodeNames.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\var\rleadingWhitespace.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/var/rleadingWhitespace.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\var\rscriptType.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\var\rtagName.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/var/rtagName.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\manipulation\wrapMap.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/manipulation/wrapMap.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\offset.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/offset.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\outro.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/outro.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\queue.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/queue.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\queue\delay.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/queue/delay.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\selector-native.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/selector-native.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\selector-sizzle.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/selector-sizzle.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\selector.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/selector.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\serialize.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/serialize.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\traversing.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/traversing.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\traversing\findFilter.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/traversing/findFilter.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\traversing\var\dir.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/traversing/var/dir.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\traversing\var\siblings.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/traversing/var/siblings.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\arr.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/arr.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\class2type.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/class2type.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\concat.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/concat.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\deletedIds.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/deletedIds.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\document.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/document.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\documentElement.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/documentElement.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\hasOwn.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/hasOwn.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\indexOf.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/indexOf.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\pnum.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/pnum.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\push.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/push.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\rcssNum.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/rcssNum.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\rnotwhite.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/rnotwhite.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\slice.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/slice.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\support.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/support.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\var\toString.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/var/toString.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\jquery\src\wrap.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/wrap.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\.bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\.bowerrc" afterPath="$PROJECT_DIR$/public/lib/ng-table/.bowerrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\.editorconfig" afterPath="$PROJECT_DIR$/public/lib/ng-table/.editorconfig" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\.gitignore" afterPath="$PROJECT_DIR$/public/lib/ng-table/.gitignore" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\.jshintrc" afterPath="$PROJECT_DIR$/public/lib/ng-table/.jshintrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\.travis.yml" afterPath="$PROJECT_DIR$/public/lib/ng-table/.travis.yml" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\CHANGELOG.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/CHANGELOG.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\CONTRIBUTING.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\DeleteNodeModules.bat" afterPath="$PROJECT_DIR$/public/lib/ng-table/DeleteNodeModules.bat" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\Gruntfile.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/Gruntfile.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\LICENSE" afterPath="$PROJECT_DIR$/public/lib/ng-table/LICENSE" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\README.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\RELEASING.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/RELEASING.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\changelog.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/changelog.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\CNAME" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/CNAME" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\app\app.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/app/app.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\css\docs.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/css/docs.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\css\social.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/css/social.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\index.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/index.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\js\angular-social.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/js/angular-social.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\js\embed-codepen.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/js/embed-codepen.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\js\embed-codepen.version.txt" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/js/embed-codepen.version.txt" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\columns\demo-reordering.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/columns/demo-reordering.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\columns\demo-visibility.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/columns/demo-visibility.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\editing\demo-batch.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/editing/demo-batch.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\editing\demo-inline.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/editing/demo-inline.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\events\demo-subscribe.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/events/demo-subscribe.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\events\demo-unsubscribe.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/events/demo-unsubscribe.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-api.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-api.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-custom-template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-custom-template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-customize-algorithm.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-customize-algorithm.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-enabling.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-enabling.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-filtering-basic.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-filtering-basic.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-multi-template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-multi-template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-nested-property.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-nested-property.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\filtering\demo-select.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/filtering/demo-select.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\formatting\demo-cell-values.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/formatting/demo-cell-values.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\formatting\demo-custom-header.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/formatting/demo-custom-header.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\formatting\demo-dynamic-html-values.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/formatting/demo-dynamic-html-values.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\formatting\demo-dynamic-js-values.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/formatting/demo-dynamic-js-values.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\formatting\demo-header-cell-basic.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/formatting/demo-header-cell-basic.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\formatting\demo-header-cell-full.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/formatting/demo-header-cell-full.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\formatting\demo-row.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/formatting/demo-row.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\global-customization\demo-defaults.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/global-customization/demo-defaults.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\global-customization\demo-response-interceptors.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/global-customization/demo-response-interceptors.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\grouping\demo-api.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/grouping/demo-api.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\grouping\demo-enabling.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/grouping/demo-enabling.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\grouping\demo-grouping-basic.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/grouping/demo-grouping-basic.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\grouping\demo-grouping-fn.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/grouping/demo-grouping-fn.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\grouping\demo-summary.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/grouping/demo-summary.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\intro\demo-real-world.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/intro/demo-real-world.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\intro\overview.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/intro/overview.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\loading\demo-external-array.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/loading/demo-external-array.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\loading\demo-lazy-loaded.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/loading/demo-lazy-loaded.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\loading\demo-managed-array.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/loading/demo-managed-array.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\loading\overview.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/loading/overview.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\pagination\demo-api.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/pagination/demo-api.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\pagination\demo-pager-basic.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/pagination/demo-pager-basic.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\sorting\demo-api.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/sorting/demo-api.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\sorting\demo-enabling.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/sorting/demo-enabling.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\sorting\demo-sorting-basic.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/sorting/demo-sorting-basic.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\demo-site\views\todo.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/views/todo.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\dist\ng-table.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/dist/ng-table.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\dist\ng-table.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/dist/ng-table.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\dist\ng-table.less" afterPath="$PROJECT_DIR$/public/lib/ng-table/dist/ng-table.less" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\dist\ng-table.min.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/dist/ng-table.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\dist\ng-table.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/dist/ng-table.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\dist\ng-table.min.js.map" afterPath="$PROJECT_DIR$/public/lib/ng-table/dist/ng-table.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\css\app.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/css/app.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\js\app.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/js/app.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\.bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\README.md" afterPath="$PROJECT_DIR$/public/lib/angular-animate/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\angular-animate.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/angular-animate.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\angular-animate.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/angular-animate.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\angular-animate.min.js.map" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/angular-animate.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\index.js" afterPath="$PROJECT_DIR$/public/lib/angular-animate/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-animate\package.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-animate/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\.bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\README.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\angular-aria.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/angular-aria.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\angular-aria.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/angular-aria.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\angular-aria.min.js.map" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/angular-aria.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\index.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-aria\package.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-aria/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\.bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\README.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\angular-messages.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/angular-messages.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\angular-messages.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/angular-messages.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\angular-messages.min.js.map" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/angular-messages.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\index.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-messages\package.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-messages/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\.bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\README.md" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\angular-route.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/angular-route.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\angular-route.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/angular-route.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\angular-route.min.js.map" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/angular-route.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\index.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular-route\package.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular-route/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\.bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/.bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\README.md" afterPath="$PROJECT_DIR$/public/lib/angular/README.md" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\angular-csp.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/angular-csp.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\angular.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/angular.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\angular.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/angular.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\angular.min.js.gzip" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/angular.min.js.gzip" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\angular.min.js.map" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/angular.min.js.map" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\bower.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/bower.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\index.js" afterPath="$PROJECT_DIR$/public/lib/angular/index.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\app\vendor\angular\package.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/app/vendor/angular/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\config.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/config.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\processors\componentsData.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/processors/componentsData.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\processors\indexPage.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/processors/indexPage.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\processors\nav-data.template.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/processors/nav-data.template.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\api-index.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/api-index.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\constants.template.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/constants.template.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\content.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/content.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\get-started.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/get-started.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\index.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/index.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\api.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/api.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\componentGroup.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/componentGroup.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\directive.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/directive.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\filter.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/filter.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\function.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/function.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\input.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/input.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\module.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/module.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\object.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/object.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\parameters.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/parameters.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\provider.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/provider.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\service.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/service.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\api\type.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/api/type.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\base.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/base.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\lib\events.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/lib/events.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\lib\macros.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/lib/macros.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\lib\methods.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/lib/methods.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\lib\params.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/lib/params.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\lib\properties.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/lib/properties.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\lib\returns.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/lib/returns.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\lib\this.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/lib/this.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\nav.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/nav.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\docs\template\ngdoc\overview.template.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/docs/template/ngdoc/overview.template.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\app\app.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/app/app.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\app\main.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/app/main.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\demo15.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/demo15.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\demo26.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/demo26.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\demo32.html" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/demo32.html" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/lib/ng-table/demo-site/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\js\angular-mocks.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/js/angular-mocks.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\js\angular-resource.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/js/angular-resource.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\js\angular.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/js/angular.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\js\jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/js/jquery-1.9.1.min.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\js\ng-table-export.src.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/js/ng-table-export.src.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\js\ng-table-resizable-columns.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/js/ng-table-resizable-columns.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\examples-old\js\require.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/examples-old/js/require.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\gulpfile.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/gulpfile.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\karma.conf.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/karma.conf.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\package.json" afterPath="$PROJECT_DIR$/public/lib/ng-table/package.json" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\.jsbeautifyrc" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/.jsbeautifyrc" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\filtersSpec.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/filtersSpec.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\ngTableDefaultGetDataSpec.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/ngTableDefaultGetDataSpec.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\selectFilterDsSpec.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/selectFilterDsSpec.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\tableControllerSpec.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/tableControllerSpec.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\tableDynamicSpec.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/tableDynamicSpec.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\tableParamsSpec.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/tableParamsSpec.js" />
-      <change type="MOVED" beforePath="D:\Challenge\IndixChallenge\bower_components\ng-table\test\tableSpec.js" afterPath="$PROJECT_DIR$/public/lib/ng-table/test/tableSpec.js" />
     </list>
     <ignored path="IndixChallenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -633,68 +31,18 @@
       <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
+            <state vertical-scroll-proportion="-6.6923075">
               <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="mainnav.client.view.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/modules/core/views/mainnav.client.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43293718">
-              <caret line="75" column="65" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="91" selection-start-line="70" selection-start-column="91" selection-end-line="70" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/env/all.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/core.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/products.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.93982303">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -705,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -727,7 +75,6 @@
         <option value="$PROJECT_DIR$/models/user.model.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/public/modules/app.js" />
-        <option value="$PROJECT_DIR$/public/application.js" />
         <option value="$PROJECT_DIR$/config/passport.js" />
         <option value="$PROJECT_DIR$/config/strategies/bearer.js" />
         <option value="$PROJECT_DIR$/config/strategies/local.js" />
@@ -761,7 +108,13 @@
         <option value="$PROJECT_DIR$/routes/core.js" />
         <option value="$PROJECT_DIR$/config/app.js" />
         <option value="$PROJECT_DIR$/config/env/all.js" />
+        <option value="$PROJECT_DIR$/config/init.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/public/application.js" />
+        <option value="$PROJECT_DIR$/public/modules/core/core.module.js" />
+        <option value="$PROJECT_DIR$/public/modules/user/user.module.js" />
+        <option value="$PROJECT_DIR$/public/app.js" />
+        <option value="$PROJECT_DIR$/public/modules/core/views/mainnav.client.view.html" />
       </list>
     </option>
   </component>
@@ -803,7 +156,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -850,9 +202,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IndixChallenge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -905,6 +360,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -919,27 +380,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2453393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2453393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62225705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62225705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -950,11 +411,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DbChanges/Schemas.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46179965">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2801359">
           <caret line="79" column="33" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,9 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08658744">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#15#46#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25976232">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82682514">
           <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1833616">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39388794">
           <caret line="35" column="19" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
           <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8370119">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,17 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/modules/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6678508">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="e#1052#2485#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4831261">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.327674">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9524618">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49066213">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.026643">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#1;n#fieldset#0;n#form#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,9 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21136767">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#4;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2886248">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9524618">
           <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21136767">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.370119">
           <caret line="295" column="16" selection-start-line="295" selection-start-column="16" selection-end-line="295" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21901529">
           <caret line="6014" column="82" selection-start-line="6014" selection-start-column="82" selection-end-line="6014" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.027777778">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2777778">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44444445">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22222222">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,23 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3611111">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19444445">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7222222">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19444445">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,15 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41666666">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/modules/core/views/mainnav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95733786">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.8055556">
           <caret line="146" column="44" selection-start-line="146" selection-start-column="44" selection-end-line="146" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,19 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,30 +676,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1443124">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.js">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9626485">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/modules/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.714032">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8274112">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/modules/user/user.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17258883">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/modules/core/core.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="91" selection-start-line="70" selection-start-column="91" selection-end-line="70" selection-end-column="91" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08658744">
-          <caret line="3" column="87" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.37394246">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.js">
+    <entry file="file://$PROJECT_DIR$/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43293718">
-          <caret line="75" column="65" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.4534687">
+          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6923075">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/modules/core/views/mainnav.client.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93982303">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

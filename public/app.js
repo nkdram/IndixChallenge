@@ -22,9 +22,7 @@ var ApplicationConfiguration = (function () {
         'ngSanitize',
         'ui.router',
         'ui.bootstrap',
-        'dialogs.main',
-        'ui.select',
-        'ngFileSaver'
+        'dialogs.main'
     ];
 
     // Add a new vertical module

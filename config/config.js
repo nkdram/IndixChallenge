@@ -40,7 +40,7 @@ module.exports.getGlobbedFiles = function(globPatterns, removeRoot) {
             var files = glob(globPatterns, { sync: true });
             if (removeRoot) {
                 files = files.map(function(file) {
-                    return file.replace(removeRoot, '');
+                    return file.replace(removeRoot, 'assets/');
                 });
             }
             output = _.union(output, files);

@@ -11,7 +11,7 @@ angular.module(ApplicationConfiguration.applicationModuleName).config(['$locatio
 ]);
 
 
-angular.module(ApplicationConfiguration.applicationModuleName).constant('moment', moment);
+//angular.module(ApplicationConfiguration.applicationModuleName).constant('moment', moment);
 
 //Then define the init function for starting up the application
 angular.element(document).ready(function () {
