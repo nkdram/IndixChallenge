@@ -10,6 +10,7 @@ var favicon = require('serve-favicon'),
      session = require('express-session'),
      bodyParser = require('body-parser'),
      multer = require('multer'),
+     compress = require('compression'),
      errorHandler = require('errorhandler'),
 	 path = require('path'),
      passport = require('passport'),
@@ -26,12 +27,32 @@ module.exports =function(){
 
 // all environments
     app.set('port', process.env.PORT || 8079);
-    /*app.set('views', __dirname + '/views');
-     app.set('view engine', 'jade');*/
+
+     app.locals.title = 'Indix Challenge';
+
+    app.locals.jsFiles = config.getJavaScriptAssets();
+    app.locals.cssFiles = config.getCSSAssets();
+
+    // Should be placed before express.static
+    app.use(compress({
+        // only compress files for the following content types
+        filter: function(req, res) {
+            return (/json|text|javascript|css|font|svg/).test(res.getHeader('Content-Type'));
+        },
+        // zlib option for compression level
+        level: 9
+    }));
+
     app.set('showStackError', true);
+
 
     // Set swig as the template engine
     app.engine('server.view.html', consolidate[config.templateEngine]);
+
+    // Set views path and view engine
+    app.set('view engine', 'server.view.html');
+    app.set('views', './views');
+
     app.use(logger('dev'));
     app.use(methodOverride());
     app.use(session({ resave: true, saveUninitialized: true,
@@ -40,10 +61,7 @@ module.exports =function(){
     app.use(passport.initialize());
     app.use(passport.session());
 
-    app.locals.title = 'Indix Challenge';
 
-    app.locals.jsFiles = config.getJavaScriptAssets();
-    app.locals.cssFiles = config.getCSSAssets();
     //app.locals.secure = config.secure;
 
     // parse application/json
@@ -55,8 +73,11 @@ module.exports =function(){
     // parse multipart/form-data
     app.use(multer());
 
-    app.use(express.static(path.join(__dirname, 'public')));
     app.use('/assets', express.static(path.resolve('./public')));
+    /*app.use('/static', express.static(__dirname + '/public'));
+    app.use('/static', express.static(__dirname + '/public'));*/
+     /*app.use('/assets', express.static(path.resolve('./public')));
+     app.use('/assets', express.static(path.resolve('./bower_components')));*/
 
     // Enable jsonp
     app.enable('jsonp callback');
@@ -104,7 +125,7 @@ module.exports =function(){
     });
 
 // Globbing routing files
-    config.getGlobbedFiles(['./routes/products.js']).forEach(function(routePath) {
+    config.getGlobbedFiles(['./routes/products.js','./routes/core.js']).forEach(function(routePath) {
         require(path.resolve(routePath))(app);
     });
 // serve index and view partials
