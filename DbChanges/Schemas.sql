@@ -34,3 +34,12 @@ CREATE TABLE tbl_products (
   toplevelcategory text DEFAULT NULL,
   subcategory text DEFAULT NULL
 )
+
+
+-- Views
+
+create or replace view vw_groupedProducts
+as
+SELECT store,toplevelcategory,avg(price) as total
+FROM tbl_products group by store,toplevelcategory
+order by toplevelcategory,store;
