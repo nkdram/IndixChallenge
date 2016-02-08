@@ -24,7 +24,7 @@
                 }).
                 state('signin', {
                     url: '/signin',
-                    templateUrl: '/assets/modules/users/views/authentication/signin.client.view.html'
+                    templateUrl: '/assets/modules/user/views/signin.client.view.html'
                 }).
                 state('forgot', {
                     url: '/password/forgot',
