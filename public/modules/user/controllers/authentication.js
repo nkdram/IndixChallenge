@@ -22,6 +22,9 @@
                 });
             };
 
+            $scope.navigate = function(){
+                $location.path('/signup');
+            };
             $scope.closeError = function () {
                 $scope.error = '';
             };

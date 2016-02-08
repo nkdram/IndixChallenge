@@ -1,10 +1,10 @@
 -- User Table to Maintain User Information
 
 CREATE TABLE tbl_users (
-id bigint NOT NULL primary key,
-  firstName varchar(150) DEFAULT NULL,
-  lastName varchar(100) DEFAULT NULL,
-  displayName varchar(255) DEFAULT NULL,
+id SERIAL PRIMARY KEY,
+  firstname varchar(150) DEFAULT NULL,
+  lastname varchar(100) DEFAULT NULL,
+  displayname varchar(255) DEFAULT NULL,
   email varchar(255) NOT NULL,
   username varchar(100) NOT NULL,
   roles varchar(100) NOT NULL,

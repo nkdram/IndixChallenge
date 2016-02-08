@@ -8,6 +8,10 @@
                 update: {
                     method: 'PUT',
                     url:'users/:updateUserId'
+                },
+                signout:{
+                    method:'GET',
+                    url:'auth/signout'
                 }
             });
         }

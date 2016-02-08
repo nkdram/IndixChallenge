@@ -7,13 +7,13 @@
 
 
             // If user is not signed in then redirect back home
-            if (!$scope.user) {
+            /*if (!$scope.user) {
                 $location.path('/');
-            }
+            }*/
 
             // Define the User roles:
             $scope.roles = ['admin', 'user'];
-            $scope.defroles = $scope.roles[5];
+            $scope.defroles = $scope.roles[0];
             $scope.find = function () {
                 Users.query().$promise.then(function (data) {
                     $scope.users = data;

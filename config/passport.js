@@ -17,7 +17,7 @@ module.exports = function () {
             where: {
                 id: id,
                 active: true
-            }, attributes: ['id', 'firstName', 'lastName', 'displayName', 'email', 'username', 'roles', 'active']
+            }, attributes: ['id', 'firstname', 'lastname', 'displayname', 'email', 'username', 'roles', 'active']
         }).then(function (user) {
             if(!user){
                 done(null, false);
