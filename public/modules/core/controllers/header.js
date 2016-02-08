@@ -26,6 +26,7 @@
             $scope.signout = function () {
                 Users.signout().$promise.then(function(response){
                     $location.path('/signin');
+                    $route.reload();
                 });
 
             };

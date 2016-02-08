@@ -6,8 +6,8 @@
         function ($stateProvider) {
             // Users state routing
             $stateProvider.
-                state('dashboard', {
-                    url: '/product',
+                state('productupload', {
+                    url: '/products',
                     templateUrl: '/assets/modules/product/views/products.html'
                 })
 
