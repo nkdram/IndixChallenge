@@ -8,8 +8,10 @@
 
             if ($scope.authentication.user) {
                 $location.path('/dashboard');
+                $window.location.reload();
             } else {
                 $location.path('/signin');
+                $window.location.reload();
             }
         }
     ]);

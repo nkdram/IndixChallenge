@@ -71,7 +71,11 @@ module.exports =function(){
     app.use(bodyParser.urlencoded({ extended: true }));
 
     // parse multipart/form-data
-    app.use(multer());
+    app.use(multer({ dest: './uploads/' }))
+
+    /*app.post('/fileupload', upload.single('product'), function (req, res, next) {
+        next();
+    });*/
 
     app.use('/assets', express.static(path.resolve('./public')));
 

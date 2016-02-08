@@ -3,12 +3,12 @@
 (function () {
     'use strict';
 
-    angular.module('product').controller('ProductController', ['$scope', 'Authentication','TimerService','$interval',
-        function ($scope, Authentication,TimerService,$interval) {
+    angular.module('product').controller('ProductController', ['$scope', 'Authentication','TimerService','$interval','$http',
+        function ($scope, Authentication,TimerService,$interval,$http) {
             $scope.authentication = Authentication;
 
             $scope.progressstatus = {
-                maxcount: 0,
+                maxcount: 1,
                 currentloop: 0,
                 percent: 0
             };
@@ -29,8 +29,8 @@
                 ).success(function (data, status, headers, config) {
 
                         if (status === 200 && data !== null && data !== '') {
-                            data = {customerData: data, userid: $scope.authentication.user.id};
-                            customerDataPost(data);
+                           // data = {customerData: data, userid: $scope.authentication.user.id};
+                            $scope.progressstatus.maxcount =  data.total;
                         } else {
                             $scope.error = 'The uploaded Data is not valid.';
                             pageLoader.setAttribute('style', 'display:none');
@@ -39,49 +39,49 @@
                         $scope.error = data.message;
                         pageLoader.setAttribute('style', 'display:none');
                     });
+
+                // Call after 20 secs to file insertion status
+                $interval(function () {
+                        $scope.customerDataPost();
+                    }
+                    ,10000)
             };
 
 
-            function customerDataPost(jsondatalist) {
-                if (jsondatalist !== '' && jsondatalist !== null) {
-                    $scope.isDisabled = true;
-                    $http.post('/migrationcustomers/upload', jsondatalist).success(function (data, status, headers, config) {
-                        $scope.logeachCustomeruploaddata = data;
-                        $scope.error = data.message;
-                        $scope.progressstatus.maxcount = data.totalcountloop;
-                        $scope.progressstatus.currentloop = 1;
-                        $scope.progressstatus.percent = getpercent(1, $scope.progressstatus.maxcount);
+          $scope.customerDataPost =   function() {
+                $interval(function () {
+                    if ($scope.progressstatus.maxcount !== $scope.progressstatus.currentloop) {
+                        $scope.reloadData('/fileuploadstatus');
+                    }
+                    else
+                    {
                         pageLoader.setAttribute('style', 'display:none');
-                        // Initizialize function
-                        reloadData('/migrationcustomers/getuploadStatus');
-                        // Start Interval
-                        var timerData =
-                            $interval(function () {
-                                if ($scope.progressstatus.maxcount !== $scope.progressstatus.currentloop) {
-                                    reloadData('/migrationcustomers/getuploadStatus');
-                                }
-                            }, 20000);
+                    }
+                }, 5000);
 
-                    }).error(function (data, status, headers, config) {
-                        pageLoader.setAttribute('style', 'display:none');
-                    });
-                } else {
-                    $scope.error = 'The Data is Empty.';
-                    pageLoader.setAttribute('style', 'display:none');
-                }
+            };
 
-            }
-
-            function getpercent(currentRow, maxRow) {
+            $scope.getpercent  =   function (currentRow, maxRow) {
                 return Math.round((currentRow * 100) / maxRow);
-            }
+            };
 
-            function reloadData(urlep) {
+            $scope.reloadData  =  function (urlep) {
                 // a call to the async method
                 TimerService.recentClients(urlep).then(function (response) {
-                    // console.log(data);
-                    $scope.progressstatus.currentloop = response.data.length;
-                    $scope.progressstatus.percent = getpercent($scope.progressstatus.currentloop, $scope.progressstatus.maxcount);
+                    console.log('INSIDE TIMER RESPONSE ', response.data);
+                    //$scope.progressstatus.maxcount = parseInt( response.data.total);
+
+                    var completedCount = response.data.data.completed ? parseInt(response.data.data.completed):0;
+
+                    if(completedCount > 0) {
+
+                        console.log('INSIDE COMPLETED ', completedCount);
+
+                        $scope.progressstatus.currentloop = completedCount;
+                        $scope.progressstatus.percent = $scope.getpercent($scope.progressstatus.currentloop, $scope.progressstatus.maxcount);
+
+                        if (!$scope.$$phase) {$scope.$apply();}
+                    }
                 });
             }
 

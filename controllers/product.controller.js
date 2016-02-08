@@ -3,11 +3,13 @@
 /**
  * Module dependencies.
  */
-var converter = require("csvtojson").Converter,
+var Converter = require("csvtojson").Converter,
     async = require('async'),
     bsutils = require('./common.controller'),
     _ = require('lodash'),
     db = require('../config/sequelize');
+
+var fs = require('fs');
 
 var objectArrayData = {};
 
@@ -18,8 +20,24 @@ exports.list = function(req, res) {
     });
 };
 
+var total = 0,completed = 0;
+
+exports.uploadstatus = function (req, res){
+
+    db.Product.count({ where: { id: { $ne: 0 } } }).then(function(count){
+        res.status(200).send({
+            data: {
+                completed: count
+            }
+        });
+    });
+
+
+};
+
 exports.upload = function (req, res){
     var uploafile = req.files;
+    console.info(req.files);
     if(!uploafile.myFile){
         return res.status(400).send({
             message: 'Please upload a excel SpreadSheet Data with extenstion of [*.csv] '
@@ -33,55 +51,69 @@ exports.upload = function (req, res){
         return;
     }
 
+    var converter = new Converter({});
 
-    converter.fromFile('./monthlyuploads/'+ uploafile.myFile.originalname,function(err,result){
+
+
+    converter.fromFile('./uploads/'+ uploafile.myFile.name,function(err,results){
+
+        console.log(results);
         if(err) {
             console.log('Error:', err);
         }
         else
         {
-            objectArrayData = _.filter(results, function(result) { return  (result.ID_DR !=='' && result.ID_DR !== null && result.ID_DR !== undefined); });
-            if(	objectArrayData.length <= 0){
-                db.UploadedData.create({
-                    excelJSONData: JSON.stringify(results),
-                    uploadedUserID: userid,
-                    uploadedStatus: 'The Uploaded Data is Invalid Data'
-                }).success(function (uploadCreated){ }).error( function (error){ console.log('Error:', error);});
-                objectArrayData = null;
-            }else{
-                db.UploadedData.create({
-                    excelJSONData: JSON.stringify(results),
-                    uploadedUserID: userid,
-                    uploadedStatus: '{The Uploaded Data is Valid Data}'
-                }).success(function (uploadCreated){ }).error( function (error){ console.log('Error:', error);});
+            console.log("GETTING LENGTH OF UPLOADED CSV");
+            console.log(results.length);
+
+            if(results.length > 0)
+            {
+                total = results.length;
+                db.Product.destroy({
+                    where: {
+                        id: {
+                            $ne: 0
+                        }
+                    }
+                }).then(function(afterDelete){
+                    async.eachLimit(results,1000,function(item, callback){
+
+                            //console.log("GETTING DETAILS OF :" + item.Title);
+                            db.Product.create({
+                                //id: item.ID,
+                                prodid: item.ID,
+                                title: item.Title,
+                                store: item.Store,
+                                price: item.Price,
+                                toplevelcategory: item['Top Level Category'],
+                                subcategory: item['Sub Category']
+                            }).then(function (createdItems) {
+                                completed+=1000;
+                                callback();
+                            });
+
+                        },
+                        function(err) {
+                            console.log('limit done');
+                            fs.unlinkSync('./uploads/'+ uploafile.myFile.name);
+
+                        });
+                    res.status(200).send({
+                        message: 'upload done',
+                        total: total
+                    });
+                });
+            }
+            else
+            {
+                res.status(200).send({
+                    message: 'upload done',
+                    total: 0
+                });
             }
         }
+
+
     });
 
-    /*converter({
-        input: './monthlyuploads/'+ uploafile.myFile.originalname,
-        output: null
-    }, function(err, results) {
-        if(err) {
-            console.log('Error:', err);
-        } else {
-
-            /!*objectArrayData = _.filter(results, function(result) { return  (result.ID_DR !=='' && result.ID_DR !== null && result.ID_DR !== undefined); });
-            if(	objectArrayData.length <= 0){
-                db.UploadedData.create({
-                    excelJSONData: JSON.stringify(results),
-                    uploadedUserID: userid,
-                    uploadedStatus: 'The Uploaded Data is Invalid Data'
-                }).success(function (uploadCreated){ }).error( function (error){ console.log('Error:', error);});
-                objectArrayData = null;
-            }else{
-                db.UploadedData.create({
-                    excelJSONData: JSON.stringify(results),
-                    uploadedUserID: userid,
-                    uploadedStatus: '{The Uploaded Data is Valid Data}'
-                }).success(function (uploadCreated){ }).error( function (error){ console.log('Error:', error);});
-            }*!/
-        }
-        return	res.status(200).send(objectArrayData);
-    });*/
 };

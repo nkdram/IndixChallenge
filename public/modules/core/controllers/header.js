@@ -11,6 +11,7 @@
             if(!$scope.menu)
             {
                 $location.path('/signin');
+                $window.location.reload();
             }
             // Toggle the menu items
             $scope.isCollapsed = false;
@@ -26,7 +27,7 @@
             $scope.signout = function () {
                 Users.signout().$promise.then(function(response){
                     $location.path('/signin');
-                    $route.reload();
+                    $window.location.reload();
                 });
 
             };

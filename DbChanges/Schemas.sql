@@ -24,3 +24,13 @@ id bigint unsigned NOT NULL primary key,
   loginDate timestamp NOT NULL,
   userID bigint unsigned DEFAULT NULL
 )
+
+CREATE TABLE tbl_products (
+  id  SERIAL PRIMARY KEY,
+  prodid text NOT NULL,
+  title text DEFAULT NULL,
+  store text DEFAULT NULL,
+  price numeric DEFAULT NULL,
+  toplevelcategory text DEFAULT NULL,
+  subcategory text DEFAULT NULL
+)
