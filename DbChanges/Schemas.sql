@@ -43,3 +43,9 @@ as
 SELECT store,toplevelcategory,avg(price) as total
 FROM tbl_products group by store,toplevelcategory
 order by toplevelcategory,store;
+
+create or replace view vw_groupedProductsByCategory
+as
+select  toplevelcategory as category,string_agg(store,',') as stores,string_agg(cast(total as text),',') as averageprice
+ from vw_groupedProducts
+ group by toplevelcategory

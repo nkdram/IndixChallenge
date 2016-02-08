@@ -1,8 +1,8 @@
 (function () {
     'use strict';
 
-    angular.module('core').controller('HeaderController', ['$scope','Users', 'Authentication', 'Menus', 'ReturnUrl','$location',
-        function ($scope, Users, Authentication, Menus, ReturnUrl,$location) {
+    angular.module('core').controller('HeaderController', ['$scope','Users', 'Authentication', 'Menus', 'ReturnUrl','$location','$window',
+        function ($scope, Users, Authentication, Menus, ReturnUrl,$location, $window) {
             $scope.authentication = Authentication;
             $scope.isCollapsed = false;
 
@@ -11,7 +11,7 @@
             if(!$scope.menu)
             {
                 $location.path('/signin');
-                $window.location.reload();
+
             }
             // Toggle the menu items
             $scope.isCollapsed = false;
