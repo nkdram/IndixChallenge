@@ -121,7 +121,7 @@ module.exports =function(){
     });
 
 // Globbing routing files
-    config.getGlobbedFiles(['./routes/products.js','./routes/core.js']).forEach(function(routePath) {
+    config.getGlobbedFiles(['./routes/products.js','./routes/core.js','./routes/user.js']).forEach(function(routePath) {
         require(path.resolve(routePath))(app);
     });
 // serve index and view partials

@@ -1,6 +1,6 @@
 module.exports = {
     database: 'Challenge',
-    username: 'admin',
+    username: 'postgres',
     password: 'admin',
     host: '127.0.0.1',
     port: 5432,

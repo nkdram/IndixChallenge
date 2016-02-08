@@ -19,7 +19,7 @@ module.exports = function() {
                 where: {
                     username: username,
                     active: true
-                }, attributes: ['id', 'firstName', 'lastName', 'displayName', 'username', 'password', 'salt', 'roles']
+                }, attributes: ['id', 'firstname', 'lastname', 'displayname', 'username', 'password', 'salt', 'roles']
             }).then(function(user) {
                 if (!user) {
                     return done(null, false, {
