@@ -33,20 +33,22 @@
                            // data = {customerData: data, userid: $scope.authentication.user.id};
                             $scope.progressstatus.maxcount =  data.total;
                             $scope.insertStarted = true;
+                            // Call after 20 secs to file insertion status
+                            $interval(function () {
+                                    $scope.customerDataPost();
+                                }
+                                ,10000);
                         } else {
                             $scope.error = 'The uploaded Data is not valid.';
                             pageLoader.setAttribute('style', 'display:none');
+                            $scope.insertStarted = false;
                         }
                     }).error(function (data, status, headers, config) {
                         $scope.error = data.message;
                         pageLoader.setAttribute('style', 'display:none');
                     });
 
-                // Call after 20 secs to file insertion status
-                $interval(function () {
-                        $scope.customerDataPost();
-                    }
-                    ,10000)
+
             };
 
 
