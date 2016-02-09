@@ -23,8 +23,9 @@ var fs        = require('fs'),
     db        = {};
 
 // create your instance of sequelize
-var sequelize = new Sequelize(config.database, config.username, config.password, {
+/*var sequelize = new Sequelize(config.database, config.username, config.password, {
     host: config.host,
+    protocol: 'postgres',
     dialect: config.dialect,
     port: config.port,
     native: config.native,
@@ -44,6 +45,20 @@ var sequelize = new Sequelize(config.database, config.username, config.password,
         freezeTableName: false,
         syncOnAssociation: false,
         timestamps: false
+    }
+});*/
+
+
+var match = config.postgresurl
+    .match(/postgres:\/\/([^:]+):([^@]+)@([^:]+):(\d+)\/(.+)/);
+var sequelize = new Sequelize(match[5], match[1], match[2], {
+    dialect:  'postgres',
+    protocol: 'postgres',
+    port:     match[4],
+    host:     match[3],
+    logging: false,
+    dialectOptions: {
+        ssl: true
     }
 });
 
