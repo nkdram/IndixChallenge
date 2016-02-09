@@ -47,8 +47,11 @@
                     ,10000)
             };
 
-
+          $scope.insertStarted = false;
           $scope.customerDataPost =   function() {
+
+              // Reset insertStarted to false
+                $scope.insertStarted = false;
                 $interval(function () {
                     if ($scope.progressstatus.maxcount !== $scope.progressstatus.currentloop) {
                         $scope.reloadData('/fileuploadstatus');
@@ -73,7 +76,11 @@
 
                     var completedCount = response.data.data.completed ? parseInt(response.data.data.completed):0;
 
-                    if(completedCount > 0) {
+                    if(!$scope.insertStarted && completedCount == 0)
+                    {
+                        $scope.insertStarted = true;
+                    }
+                    if(completedCount > 0 && $scope.insertStarted) {
 
                         console.log('INSIDE COMPLETED ', completedCount);
 

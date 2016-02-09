@@ -28,13 +28,13 @@
                                     end = white;
 
                                 //var percent = category.percent < 0 ? Math.abs(category.percent)/$scope.highest :
-                                var percent = category.percent < 0 ?  (1 + (((50 - 1) / 50) * Math.abs(category.percent)))
-                                     : (50 + (((100 - 51) / 100) * Math.abs(category.percent)));
-                                /*if (val > 50) {
+                                var percent = category.percent < 0 ?
+                                      (50 + (((100 - 51) / 100) * Math.abs(category.percent))) : (1 + (((50 - 1) / 50) * Math.abs(category.percent)));
+                                if (percent > 50) {
                                     start = white,
                                         end = red;
-                                    val = val % 51;
-                                }*/
+                                    percent = percent % 51;
+                                }
                                 if(category.percent == 0) {
                                     percent = 50;
 
@@ -50,8 +50,8 @@
                                     var r = Interpolate(startColors.r, endColors.r, 50, percent);
                                     var g = Interpolate(startColors.g, endColors.g, 50, percent);
                                     var b = Interpolate(startColors.b, endColors.b, 50, percent);
-                                    category.style =
-                                        "rgb(" + r + "," + g + "," + b + ")";
+                                    category.style = rgbToHex(r,g,b);
+                                          //"rgb(" + r + "," + g + "," + b + ")";
                                 }
 
                             });
@@ -99,38 +99,7 @@
                 };
             }
 
-            $(document).on({
-                change: function(e) {
 
-                    var self = this,
-                        span = $(self).parent("span"),
-                        val = parseInt(self.value),
-                        red = new Color(232, 9, 26),
-                        white = new Color(255, 255, 255),
-                        green = new Color(6, 170, 60),
-                        start = green,
-                        end = white;
-
-                    $(".value", span).text(val);
-
-                    console.log(val);
-                    if (val > 50) {
-                        start = white,
-                            end = red;
-                        val = val % 51;
-                    }
-                    console.log(val);
-                    var startColors = start.getColors(),
-                        endColors = end.getColors();
-                    var r = Interpolate(startColors.r, endColors.r, 50, val);
-                    var g = Interpolate(startColors.g, endColors.g, 50, val);
-                    var b = Interpolate(startColors.b, endColors.b, 50, val);
-
-                    span.css({
-                        backgroundColor: "rgb(" + r + "," + g + "," + b + ")"
-                    });
-                }
-            }, "input[type='range']");
 
         }
     ]);
