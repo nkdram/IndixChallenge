@@ -5,12 +5,16 @@
 
 <b> Node - AngularJs </b>
 <ul> 
-<li>Core Modules </li>
+
 <li>Express  </li>
 <li>Passport  </li>
 <li>Sequelize  </li>
+<li>Async </li>
+<li>CSVtoJSON </li>
 <li>PG  </li>
 <li>AngularJS</li>
+<li>Fileupload</li>
+<li>ngTable</li>
 <li>Bootstrap  </li>
 </ul>
 
