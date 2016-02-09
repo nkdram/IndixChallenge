@@ -28,10 +28,9 @@ var sequelize = new Sequelize(config.database, config.username, config.password,
     dialect: config.dialect,
     port: config.port,
     native: config.native,
-    pool: {
-        max: 5,
-        min: 0,
-        idle: 10000
+    logging: false,
+    dialectOptions: {
+        ssl: true
     },
     // Specify options, which are used when sequelize.define is called.
     // The following example:
