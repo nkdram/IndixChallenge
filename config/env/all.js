@@ -18,8 +18,7 @@ module.exports = {
                 'public/lib/fontawesome/css/font-awesome.css',
                 'public/lib/dialogs/dist/dialogs.min.css',
                 'public/lib/angular-busy/dist/angular-busy.min.css',
-                'public/lib/ng-table/dist/ng-table.css',
-                'public/lib/angular-ui-select/dist/select.min.css'
+                'public/lib/ng-table/dist/ng-table.css'
             ],
             js: [
                 'public/lib/angular/angular.js',
@@ -75,12 +74,7 @@ module.exports = {
                 'public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js',
                 'public/lib/dialogs/dist/dialogs.min.js',
                 'public/lib/jquery/dist/jquery.min.js',
-                'public/lib/ng-table/dist/ng-table.min.js',
-                'public/lib/lodash/dist/lodash.min.js',
-                'public/lib/angularjs-dropdown-multiselect/dist/angularjs-dropdown-multiselect.min.js',
-                'public/lib/angular-ui-select/dist/select.min.js',
-                'public/lib/angular-loading-bar/build/loading-bar.min.js',
-                'public/lib/angular-file-saver/dist/angular-file-saver.min.js'
+                'public/lib/ng-table/dist/ng-table.min.js'
             ]
         },
         css: [

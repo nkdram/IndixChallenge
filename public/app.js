@@ -22,7 +22,8 @@ var ApplicationConfiguration = (function () {
         'ngSanitize',
         'ui.router',
         'ui.bootstrap',
-        'dialogs.main'
+        'dialogs.main',
+        'ngTable'
     ];
 
     // Add a new vertical module
