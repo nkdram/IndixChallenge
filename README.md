@@ -15,4 +15,4 @@
 </ul>
 
 
-https://codeship.com/projects/132939/status?branch=master
+[ ![Codeship Status for nkdram/IndixChallenge](https://codeship.com/projects/f2444880-b145-0133-fbb6-7ee430441c87/status?branch=master)](https://codeship.com/projects/132939)
