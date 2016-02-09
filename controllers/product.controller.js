@@ -19,8 +19,7 @@ exports.list = function(req, res) {
     db.sequelize.query("select min(stores) as allstores from vw_groupedProductsByCategory",
         { type: db.sequelize.QueryTypes.SELECT})
         .then(function(allStores) {
-            if(allStores && allStores.length > 0) {
-                console.log(allStores[0].allstores);
+            if(allStores && allStores.length > 0 && allStores[0].allstores != null) {
                 var allStores = allStores[0].allstores.split(',');
                 var highestPercent = 0, lowestPercent = 0;
 
