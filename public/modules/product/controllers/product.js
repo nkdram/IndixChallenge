@@ -21,6 +21,7 @@
                 var formData = new FormData(form);
                 formData.append('userid', $scope.authentication.user.id);
                 pageLoader.setAttribute('style', 'display:block');
+                $scope.insertStarted = false;
                 $http.post('/fileupload', formData,
                     {
                         transformRequest: angular.identity,
@@ -31,6 +32,7 @@
                         if (status === 200 && data !== null && data !== '') {
                            // data = {customerData: data, userid: $scope.authentication.user.id};
                             $scope.progressstatus.maxcount =  data.total;
+                            $scope.insertStarted = true;
                         } else {
                             $scope.error = 'The uploaded Data is not valid.';
                             pageLoader.setAttribute('style', 'display:none');
@@ -47,11 +49,11 @@
                     ,10000)
             };
 
-          $scope.insertStarted = false;
+
           $scope.customerDataPost =   function() {
 
-              // Reset insertStarted to false
-                $scope.insertStarted = false;
+              /*// Reset insertStarted to false
+                $scope.insertStarted = false;*/
                 $interval(function () {
                     if ($scope.progressstatus.maxcount !== $scope.progressstatus.currentloop) {
                         $scope.reloadData('/fileuploadstatus');
@@ -71,15 +73,13 @@
             $scope.reloadData  =  function (urlep) {
                 // a call to the async method
                 TimerService.recentClients(urlep).then(function (response) {
-                    console.log('INSIDE TIMER RESPONSE ', response.data);
+
                     //$scope.progressstatus.maxcount = parseInt( response.data.total);
 
                     var completedCount = response.data.data.completed ? parseInt(response.data.data.completed):0;
 
-                    if(!$scope.insertStarted && completedCount == 0)
-                    {
-                        $scope.insertStarted = true;
-                    }
+                    console.log('INSIDE TIMER RESPONSE ', completedCount, $scope.insertStarted);
+
                     if(completedCount > 0 && $scope.insertStarted) {
 
                         console.log('INSIDE COMPLETED ', completedCount);
