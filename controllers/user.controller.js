@@ -40,6 +40,8 @@ exports.signup = function (req, res) {
             user.password = user.encryptPassword(req.body.password, user.salt);
             user.created = common.getLocalizeCurrentDateTime();
             //user.roles = user.roles;
+            user.createdAt = undefined;
+            user.updatedAt = undefined;
 
             // Then save the user
             user.save()
