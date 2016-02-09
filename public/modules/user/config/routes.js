@@ -9,18 +9,20 @@
                 state('listUsers', {
                     url: '/users',
                     templateUrl: '/assets/modules/users/views/settings/list-users.client.view.html'
-                }).
+                })
+                /*.
                 state('profile', {
                     url: '/settings/profile',
                     templateUrl: '/assets/modules/users/views/settings/edit-profile.client.view.html'
-                }).
+                })*/
+                .
                 state('password', {
                     url: '/settings/password',
-                    templateUrl: '/assets/modules/users/views/settings/change-password.client.view.html'
+                    templateUrl: '/assets/modules/user/views/changepassword.html'
                 }).
                 state('createUser', {
-                    url: '/users/create',
-                    templateUrl: '/assets/modules/users/views/settings/signup.client.view.html'
+                    url: '/signup',
+                    templateUrl: '/assets/modules/user/views/signup.html'
                 }).
                 state('signin', {
                     url: '/signin',
@@ -28,7 +30,7 @@
                 }).
                 state('forgot', {
                     url: '/password/forgot',
-                    templateUrl: '/assets/modules/users/views/password/forgot-password.client.view.html'
+                    templateUrl: '/assets/modules/user/views/forgotpassword.html'
                 }).
                 state('reset-invlaid', {
                     url: '/password/reset/invalid',

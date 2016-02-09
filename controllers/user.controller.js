@@ -35,7 +35,7 @@ exports.signup = function (req, res) {
 
             // Add missing user fields
             user.provider = 'local';
-            user.displayName = user.firstName + ' ' + user.lastName;
+            user.displayName = user.firstname + ' ' + user.lastname;
             user.salt = user.makeSalt();
             user.password = user.encryptPassword(req.body.password, user.salt);
             user.created = common.getLocalizeCurrentDateTime();
